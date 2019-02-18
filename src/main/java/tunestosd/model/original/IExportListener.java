@@ -1,4 +1,4 @@
-package tunestosd.model.org;
+package tunestosd.model.original;
 
 import com.gps.itunes.lib.items.tracks.Track;
 

@@ -12,6 +12,12 @@ import org.jaudiotagger.tag.datatype.Artwork;
 import be.tarsos.transcoder.DefaultAttributes;
 import be.tarsos.transcoder.Transcoder;
 
+/**
+ * A task which converts audio file to MP3
+ * 
+ * @author paul
+ *
+ */
 public class ConvertToMp3Task implements ITask {
 	private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(ConvertToMp3Task.class);
 

@@ -38,9 +38,9 @@ import com.gps.itunes.lib.items.tracks.Track;
 import com.gps.itunes.lib.parser.ItunesLibraryParsedData;
 
 import tunestosd.model.ITunesImporter;
-import tunestosd.model.org.ExportOptions;
-import tunestosd.model.org.JobExecutor;
-import tunestosd.model.org.JobResult;
+import tunestosd.model.original.ExportOptions;
+import tunestosd.model.original.JobExecutor;
+import tunestosd.model.original.JobResult;
 
 public class MainWindow extends JFrame {
 	private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(MainWindow.class);

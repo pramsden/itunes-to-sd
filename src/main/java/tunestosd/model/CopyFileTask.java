@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 /**
- * Copy file from source to target
+ * A task to copy file from source to target
  * 
  * @author paul
  *

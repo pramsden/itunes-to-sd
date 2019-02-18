@@ -18,6 +18,13 @@ public class JobGenerator {
 
 	private ItunesLibraryParsedData library;
 
+	/**
+	 * Generate a list of tasks to perform.
+	 * 
+	 * @param options
+	 * @param library
+	 * @return
+	 */
 	public List<ITask> generate(JobOptions options, ItunesLibraryParsedData library) {
 		this.library = library;
 
@@ -126,7 +133,7 @@ public class JobGenerator {
 	 * @param id
 	 * @return
 	 */
-	public Track getTrackById(long id) {
+	private Track getTrackById(long id) {
 		for (Track track : library.getAllTracks()) {
 			if (track.getTrackId() == id)
 				return track;

@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
 
-import tunestosd.model.org.JobResult;
+import tunestosd.model.original.JobResult;
 
 public class JobTableModel extends AbstractTableModel {
 	private String[] columnNames = new String[] { "Status", "Artist", "Album", "Track", "Description" };
