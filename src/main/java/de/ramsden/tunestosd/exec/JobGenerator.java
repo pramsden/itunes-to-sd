@@ -1,4 +1,4 @@
-package tunestosd.model;
+package de.ramsden.tunestosd.exec;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -12,6 +12,11 @@ import com.gps.itunes.lib.items.playlists.PlaylistItem;
 import com.gps.itunes.lib.items.tracks.Track;
 import com.gps.itunes.lib.parser.ItunesLibraryParsedData;
 import com.gps.itunes.lib.parser.utils.LocationDecoder;
+
+import de.ramsden.tunestosd.model.ConvertToMp3Task;
+import de.ramsden.tunestosd.model.CopyFileTask;
+import de.ramsden.tunestosd.model.ITask;
+import de.ramsden.tunestosd.model.JobOptions;
 
 public class JobGenerator {
 	private static final Logger log = Logger.getLogger(ConvertToMp3Task.class);

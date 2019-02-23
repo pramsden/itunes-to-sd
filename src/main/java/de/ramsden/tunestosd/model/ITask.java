@@ -1,4 +1,4 @@
-package tunestosd.model;
+package de.ramsden.tunestosd.model;
 
 /**
  * A task to perform

@@ -1,4 +1,4 @@
-package tunestosd.model.app;
+package de.ramsden.tunestosd.ui;
 
 import java.util.ArrayList;
 import java.util.List;

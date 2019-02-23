@@ -1,4 +1,4 @@
-package tunestosd.model;
+package de.ramsden.tunestosd.model;
 
 import java.io.File;
 import java.io.IOException;

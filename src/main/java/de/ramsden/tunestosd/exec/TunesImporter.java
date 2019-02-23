@@ -1,4 +1,4 @@
-package tunestosd.model;
+package de.ramsden.tunestosd.exec;
 
 import java.io.File;
 
@@ -13,8 +13,8 @@ import com.gps.itunes.lib.tasks.LibraryParser;
  * @author paul
  *
  */
-public class ITunesImporter {
-	private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(ITunesImporter.class);
+public class TunesImporter {
+	private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(TunesImporter.class);
 	private File file;
 
 	/**
@@ -22,7 +22,7 @@ public class ITunesImporter {
 	 * 
 	 * @param file
 	 */
-	public ITunesImporter(File file) {
+	public TunesImporter(File file) {
 		this.file = file;
 	}
 

@@ -1,4 +1,4 @@
-package tunestosd.model.app;
+package de.ramsden.tunestosd.ui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -37,7 +37,7 @@ import com.gps.itunes.lib.items.playlists.PlaylistItem;
 import com.gps.itunes.lib.items.tracks.Track;
 import com.gps.itunes.lib.parser.ItunesLibraryParsedData;
 
-import tunestosd.model.ITunesImporter;
+import de.ramsden.tunestosd.exec.TunesImporter;
 import tunestosd.model.original.ExportOptions;
 import tunestosd.model.original.JobExecutor;
 import tunestosd.model.original.JobResult;
@@ -307,7 +307,7 @@ public class MainWindow extends JFrame {
 
 	protected void openItunes(File file) {
 		try {
-			new ITunesImporter(file) {
+			new TunesImporter(file) {
 				@Override
 				protected void onImportFailed(File file, Exception e) {
 					log.error(file.getAbsoluteFile(), e);
